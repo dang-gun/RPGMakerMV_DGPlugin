@@ -1,5 +1,5 @@
 ﻿//=============================================================================
-// DangGun Plugins - Bettle Command
+// DangGun Plugins - Bettle Command ( http://blog.danggun.net/4608 )
 // DG_BettleCommand.js
 //=============================================================================
 
@@ -12,7 +12,7 @@ DangGun.BettleCommand.version = 1.00;
 
 //=============================================================================
 /*:
-* @plugindesc 전투창의 명령어를 제어합니다.
+* @plugindesc 전투창의 명령어를 제어합니다.( http://blog.danggun.net/4608 )
 * @author Dang-Gun Roleeyas ( http://blog.danggun.net/ )
 *
 * @param Show Attack
