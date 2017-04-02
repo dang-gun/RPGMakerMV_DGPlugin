@@ -78,7 +78,7 @@ DangGun.BettleCommand.ShowSkill = eval(DangGun.BettleCommand.ShowSkill);
 		//console.log(DangGun.BettleCommand.ShowAttack + " " + DangGun.BettleCommand.ShowGuard);
 
 		//엑터 커맨드 만드는 객체를 내가 만든 객체로 바꾼다.
-		this._BettleCommandWindow = new Window_BettleCommand();
+		this._BettleCommandWindow = new Window_ActorCommand();
 
 		if (true === DangGun.BettleCommand.ShowAttack)
 		{//공격 커맨드 바인딩
@@ -105,7 +105,7 @@ DangGun.BettleCommand.ShowSkill = eval(DangGun.BettleCommand.ShowSkill);
 
 	//액터 명령창을 만들기
 	//스크롤할때도 발생한다.
-	Window_BettleCommand.prototype.makeCommandList = function ()
+	Window_ActorCommand.prototype.makeCommandList = function ()
 	{
 		if (this._actor)
 		{//엑터가 있을때
