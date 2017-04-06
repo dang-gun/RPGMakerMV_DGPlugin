@@ -1,4 +1,4 @@
-# RPGMakerMV_DGPlugin
+# RPG Maker MV DGPlugin
 
 RPG Macker MV 용 플러그인
 
